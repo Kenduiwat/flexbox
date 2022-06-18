@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding:0 ;
+}
+body{
+    background-color: lightgray;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-areas:
+    "a b c"
+    ;
+    width: 50%;
+    margin: auto;
+
+    
+}
+
+.top1 {
+    display: flex;
+    background-color: hsl(31, 77%, 52%);
+grid-area:a ;
+}
+.top2{
+    background-color: hsl(184, 100%, 22%);
+    grid-area:b ;
+}
+.top3{
+    background-color: hsl(179, 100%, 13%); 
+    grid-area:c ;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+}
+
+}
